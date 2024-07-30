@@ -27,7 +27,9 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 
 
 <style>
@@ -116,6 +118,25 @@
 }
 
 
+  .whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128C7E;
+  }
+</style>
+
+
 </style>
 
 
@@ -148,17 +169,21 @@
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true" >
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/Tejasjoshi.png);">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/Tejaskumar-1.png);">
 	          	 <div class="overlay"></div>
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
+		          	<div class="text" >
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3" style="font-family: 'Times New Roman', Times, serif;">I'm <span>Tejaskumar Joshi</span></h1>
 
 						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
+						<span id="typing-animation" style="color: red;">
+							
+						</span>
 
+							
+						
 						<script>
 
 						// Initialize the typing animation
@@ -169,6 +194,8 @@
 						'Engineer  ',
 						'YouTuber  ',
 						'Teacher   ',
+						'Video Editor',
+						'Web Developer'
 						];
 
 						// Create a function to display the typing animation for a given text
@@ -189,16 +216,25 @@
 
 						// Start the typing animation loop
 						playTypingAnimation(typingTexts[0]);
-
+							
 						</script>
+						
 
 						<br>
 						<br>
-			            <h2>Web Developer</h2>
+			            <h2 class="typingTexts">Web Developer</h2>
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 						<!-- <br> -->
-			            <p><a href="https://www.youtube.com/@Educational2020" class="btn btn-primary py-3 px-4">YouTube</a> 
-							<a href="https://github.com/Educational2020" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			            <p ><a href="https://www.youtube.com/@Educational2020" style="color: red;" class="btn btn-primary py-3 px-4" >YouTube</a> 
+							<a href="https://github.com/Educational2020" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+							<link rel="icon" href="images/Whats App.jpg" type="images/Whats App.jpg" >
+							<a href="https://wa.me/9979755889?text=Hello%20Tejaskumar%20Joshi"  class="whatsapp-button  py-3 px-4" target="_blank" >
+								
+								Whats App</a>
+							
+						</p>
+							
+								
 		            </div>
 		          </div>
 	        	</div>
@@ -240,35 +276,35 @@
 
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">95%</span>
+									<span>SQL</span> <span class="pull-right">50%</span>
 									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+										<div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>Laravel</span> <span class="pull-right">85%</span>
+									<span>Laravel</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Data Analysis</span> <span class="pull-right">75%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Code De-Buging</span> <span class="pull-right">85%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
 											aria-valuemax="100"></div>
 									</div>
 									
-									<span>Data Visualization</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Website Analysis</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Website Development</span> <span class="pull-right">80%</span>
+									<!-- <span>Machine Learning</span> <span class="pull-right">80%</span>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
 											aria-valuemax="100"></div>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
